@@ -1,4 +1,5 @@
 # Instance and static members #
+
 ![](./Slides/CSharp-Class-part-2/Slide8.PNG)
 
 ![](./Slides/CSharp-Class-part-2/Slide9.PNG)
