@@ -7,7 +7,7 @@
 ### [ใบงาน](./Lab-Instance-and-static-members.md) ###  
 
 ## 2. Constant ##
-### [Slides](./Slides-Constant.md) ###  
+### [Slides](./Slides-Constants.md) ###  
 ### [ใบงาน](./Lab-Constant.md) ###  
 
 ## 3. Properties ##
