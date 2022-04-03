@@ -1,26 +1,24 @@
 # การทดลอง Constants #
 
-## การทดลอง 10.3 Constants ##
-
 1. ให้นักศึกษาสร้าง project ชนิด Console application แล้วเขียน code ต่อไปนี้
 
 ``` cs
 using System;
 class Circle
 {
-    public const double PI = 3.14;
-    static public void CalculateArea(double radius)
-    {
+	public const double PI = 3.14;
+	static public void CalculateArea(double radius)
+	{
         Console.WriteLine($"Area of circle = {PI * radius * radius} square unit.");
-    }
-    
+	}
+	
 }
 class Program
 {
-    static void Main()
-    {
-        Circle.CalculateArea(radius: 10.0);
-    }
+	static void Main()
+	{
+		Circle.CalculateArea(radius: 10.0);
+	}
 }
 ```
 
@@ -31,21 +29,21 @@ class Program
 using System;
 class Circle
 {
-    public const double PI = 3.14;
-    static public void CalculateArea(double radius)
-    {
-        // คำนวณจากเครื่องคิดเลข ได้ค่าที่ละเอียดกว่า จึงนำมาเปลี่ยนก่อนคำนวณพื้นที่
-        PI = 3.14159265359;
-        Console.WriteLine($"Area of circle = {PI * radius * radius} square unit.");
-    }
-    
+	public const double PI = 3.14;
+	static public void CalculateArea(double radius)
+	{
+		// คำนวณจากเครื่องคิดเลข ได้ค่าที่ละเอียดกว่า จึงนำมาเปลี่ยนก่อนคำนวณพื้นที่
+		PI = 3.14159265359;
+		Console.WriteLine($"Area of circle = {PI * radius * radius} square unit.");
+	}
+	
 }
 class Program
 {
-    static void Main()
-    {
-        Circle.CalculateArea(radius: 10.0);
-    }
+	static void Main()
+	{
+		Circle.CalculateArea(radius: 10.0);
+	}
 }
 
 ```
